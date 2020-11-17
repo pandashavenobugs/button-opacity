@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  test(){
+    console.log('link hit')
+  }
   title = 'opacity-button';
 }
